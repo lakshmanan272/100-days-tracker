@@ -1,0 +1,1086 @@
+{
+  "updated": "2026-11-06T13:45:22.970Z",
+  "daysDone": 1,
+  "modulesDone": 1,
+  "nextDay": 2,
+  "firstDone": {
+    "1": "2026-11-05"
+  },
+  "days": [
+    {
+      "day": 1,
+      "done": true,
+      "module": "M00",
+      "review": false,
+      "task": "Install check, Git Bash, the 8 commands, first program, reading errors · node check.js"
+    },
+    {
+      "day": 2,
+      "done": false,
+      "module": "M01",
+      "review": false,
+      "task": "Watch how website works Tamil · lesson · DevTools Network tab on your live portal · games/request-journey.html · checker"
+    },
+    {
+      "day": 3,
+      "done": false,
+      "module": "M02",
+      "review": false,
+      "task": "Watch EMC HTML (tags → lists) · lesson §1–6 · freeCodeCamp Cat Photo App"
+    },
+    {
+      "day": 4,
+      "done": false,
+      "module": "M02",
+      "review": false,
+      "task": "Lesson §7–8 forms & tables · freeCodeCamp Survey Form · build login.html"
+    },
+    {
+      "day": 5,
+      "done": false,
+      "module": "M02",
+      "review": false,
+      "task": "Build register-team.html · connect login-form.tsx · checker + quiz"
+    },
+    {
+      "day": 6,
+      "done": false,
+      "module": "M03",
+      "review": false,
+      "task": "Watch EMC CSS · lesson §1–5 (selectors, box model) · CSS Diner (all 32)"
+    },
+    {
+      "day": 7,
+      "done": false,
+      "module": null,
+      "review": true,
+      "task": "🔁 Week 1 review · re-run the M00–M02 checkers · redo missed quiz questions · re-run this week's checkers · update PROGRESS.md"
+    },
+    {
+      "day": 8,
+      "done": false,
+      "module": "M03",
+      "review": false,
+      "task": "Lesson §6 Flexbox · Flexbox Froggy (all 24)"
+    },
+    {
+      "day": 9,
+      "done": false,
+      "module": "M03",
+      "review": false,
+      "task": "Lesson §7–8 Grid & position · Grid Garden (all 28)"
+    },
+    {
+      "day": 10,
+      "done": false,
+      "module": "M03",
+      "review": false,
+      "task": "Lesson §9–11 responsive · build events.html + style.css · checker + quiz"
+    },
+    {
+      "day": 11,
+      "done": false,
+      "module": "M04",
+      "review": false,
+      "task": "Variables, types, operators (§1–3) · exercises 1–3 · 1 LeetCode easy"
+    },
+    {
+      "day": 12,
+      "done": false,
+      "module": "M04",
+      "review": false,
+      "task": "if / else (§4) · exercises 4–6 · freeCodeCamp Basic JS (40 steps)"
+    },
+    {
+      "day": 13,
+      "done": false,
+      "module": "M04",
+      "review": false,
+      "task": "Functions (§5) · exercises 7–9 · exercism Lucian's Luscious Lasagna"
+    },
+    {
+      "day": 14,
+      "done": false,
+      "module": null,
+      "review": true,
+      "task": "🔁 Week 2 review · JS fundamentals: redo exercises 10–18 from a blank file without looking · re-run this week's checkers · update PROGRESS.md"
+    },
+    {
+      "day": 15,
+      "done": false,
+      "module": "M04",
+      "review": false,
+      "task": "Loops (§6) · exercises 10–12 · LeetCode Fizz Buzz"
+    },
+    {
+      "day": 16,
+      "done": false,
+      "module": "M04",
+      "review": false,
+      "task": "Strings (§7) · exercises 13–14 · exercism Annalyn's Infiltration"
+    },
+    {
+      "day": 17,
+      "done": false,
+      "module": "M04",
+      "review": false,
+      "task": "Arrays & objects (§8–9) · exercises 15–17 · LeetCode Two Sum"
+    },
+    {
+      "day": 18,
+      "done": false,
+      "module": "M04",
+      "review": false,
+      "task": "Put it together (§10–11) · exercise 18 · checker + quiz"
+    },
+    {
+      "day": 19,
+      "done": false,
+      "module": "M05",
+      "review": false,
+      "task": "Arrow functions, map / filter / find · exercises 1–4 · JavaScript30 #4 Array Cardio"
+    },
+    {
+      "day": 20,
+      "done": false,
+      "module": "M05",
+      "review": false,
+      "task": "reduce, sort · exercises 5–7 · JavaScript30 #7 Array Cardio 2"
+    },
+    {
+      "day": 21,
+      "done": false,
+      "module": null,
+      "review": true,
+      "task": "🔁 Week 3 review · rewrite 5 M05 functions from memory · 2 LeetCode easy · re-run this week's checkers · update PROGRESS.md"
+    },
+    {
+      "day": 22,
+      "done": false,
+      "module": "M05",
+      "review": false,
+      "task": "Destructuring, spread, Set & Map · exercises 8–11 · read registrations.ts (Set part)"
+    },
+    {
+      "day": 23,
+      "done": false,
+      "module": "M05",
+      "review": false,
+      "task": "Modules, promises, async/await · exercises 12–14 · exercism Translation Service"
+    },
+    {
+      "day": 24,
+      "done": false,
+      "module": "M05",
+      "review": false,
+      "task": "Errors, Promise.all, retry · exercises 15–17"
+    },
+    {
+      "day": 25,
+      "done": false,
+      "module": "M05",
+      "review": false,
+      "task": "The DOM · dom/ live search · JavaScript30 #6 Type Ahead · checker + quiz"
+    },
+    {
+      "day": 26,
+      "done": false,
+      "module": "M06",
+      "review": false,
+      "task": "Lesson · Learn Git Branching Main 1–4 · build git-practice (incl. a merge conflict) · checker"
+    },
+    {
+      "day": 27,
+      "done": false,
+      "module": "M07",
+      "review": false,
+      "task": "Lesson §1–5 · npx learnyounode exercises 1–3 · read the portal's package.json"
+    },
+    {
+      "day": 28,
+      "done": false,
+      "module": null,
+      "review": true,
+      "task": "🔁 Week 4 review · Git + npm: push git-practice to a private GitHub repo · re-run this week's checkers · update PROGRESS.md"
+    },
+    {
+      "day": 29,
+      "done": false,
+      "module": "M07",
+      "review": false,
+      "task": "Build my-tool (bcrypt hasher with npm scripts + .env) · checker + quiz"
+    },
+    {
+      "day": 30,
+      "done": false,
+      "module": "M08",
+      "review": false,
+      "task": "Dave Gray ch. 1–3 · lesson §1–4 · exercises 1–4"
+    },
+    {
+      "day": 31,
+      "done": false,
+      "module": "M08",
+      "review": false,
+      "task": "Lesson §5–6 functions, null, narrowing · exercises 5–6, 12–13"
+    },
+    {
+      "day": 32,
+      "done": false,
+      "module": "M08",
+      "review": false,
+      "task": "Lesson §7–8 generics, Promise, utility types · exercises 7–11"
+    },
+    {
+      "day": 33,
+      "done": false,
+      "module": "M08",
+      "review": false,
+      "task": "Read the portal's types (§9) · type-challenges easy (first 8) · checker + quiz"
+    },
+    {
+      "day": 34,
+      "done": false,
+      "module": "M09",
+      "review": false,
+      "task": "npm install + npm run dev · components & JSX · react.dev Quick Start · Badge"
+    },
+    {
+      "day": 35,
+      "done": false,
+      "module": null,
+      "review": true,
+      "task": "🔁 Week 5 review · TypeScript + React day 1: type three M05 functions in the Playground · re-run this week's checkers · update PROGRESS.md"
+    },
+    {
+      "day": 36,
+      "done": false,
+      "module": "M09",
+      "review": false,
+      "task": "Props · react.dev Passing Props · EventCard"
+    },
+    {
+      "day": 37,
+      "done": false,
+      "module": "M09",
+      "review": false,
+      "task": "Conditional rendering, lists & keys · EventList"
+    },
+    {
+      "day": 38,
+      "done": false,
+      "module": "M09",
+      "review": false,
+      "task": "State & events · react.dev State: a component's memory · Counter"
+    },
+    {
+      "day": 39,
+      "done": false,
+      "module": "M09",
+      "review": false,
+      "task": "Forms & controlled inputs · EventSearch, LoginForm"
+    },
+    {
+      "day": 40,
+      "done": false,
+      "module": "M09",
+      "review": false,
+      "task": "Lifting state, derived values · TeamPicker"
+    },
+    {
+      "day": 41,
+      "done": false,
+      "module": "M09",
+      "review": false,
+      "task": "useEffect · react.dev Synchronizing with Effects · PageTitle"
+    },
+    {
+      "day": 42,
+      "done": false,
+      "module": null,
+      "review": true,
+      "task": "🔁 Week 6 review · React: rebuild TeamPicker from a blank file in under 30 min · re-run this week's checkers · update PROGRESS.md"
+    },
+    {
+      "day": 43,
+      "done": false,
+      "module": "M09",
+      "review": false,
+      "task": "Server vs Client preview · react.dev Thinking in React · redo challenges"
+    },
+    {
+      "day": 44,
+      "done": false,
+      "module": "M09",
+      "review": false,
+      "task": "Read register-form.tsx (§12) · polish · checker 100% + quiz"
+    },
+    {
+      "day": 45,
+      "done": false,
+      "module": "M10",
+      "review": false,
+      "task": "Utilities, spacing, colors, flex/grid · tailwind.html stat tiles"
+    },
+    {
+      "day": 46,
+      "done": false,
+      "module": "M10",
+      "review": false,
+      "task": "Responsive & state prefixes, config, @apply · event cards grid"
+    },
+    {
+      "day": 47,
+      "done": false,
+      "module": "M10",
+      "review": false,
+      "task": "clsx + lucide · badge.js · read event-card.tsx + stat-tile.tsx · checker + quiz"
+    },
+    {
+      "day": 48,
+      "done": false,
+      "module": "M11",
+      "review": false,
+      "task": "Tables, keys, SELECT, WHERE, ORDER BY · Q01–Q04 · SQL Island"
+    },
+    {
+      "day": 49,
+      "done": false,
+      "module": null,
+      "review": true,
+      "task": "🔁 🧭 Halfway checkpoint· re-run this week's checkers · update PROGRESS.md"
+    },
+    {
+      "day": 50,
+      "done": false,
+      "module": "M11",
+      "review": false,
+      "task": "NULL, COUNT, GROUP BY · Q05–Q06 · SQLBolt 1–6"
+    },
+    {
+      "day": 51,
+      "done": false,
+      "module": "M11",
+      "review": false,
+      "task": "⭐ JOINs · Q07–Q09 · SQLBolt 7–9"
+    },
+    {
+      "day": 52,
+      "done": false,
+      "module": "M11",
+      "review": false,
+      "task": "HAVING, subqueries, AVG · Q10–Q13 · SQLBolt 10–12 · pgexercises Basic"
+    },
+    {
+      "day": 53,
+      "done": false,
+      "module": "M11",
+      "review": false,
+      "task": "INSERT, UPDATE, DELETE, CASCADE · Q14–Q16 · pgexercises Joins"
+    },
+    {
+      "day": 54,
+      "done": false,
+      "module": "M11",
+      "review": false,
+      "task": "Constraints, ⭐ transactions, Postgres differences · Q17–Q18 · 5 LeetCode SQL 50 · checker + quiz"
+    },
+    {
+      "day": 55,
+      "done": false,
+      "module": "M12",
+      "review": false,
+      "task": "ORM, schema, relations · npm install · write User + Event"
+    },
+    {
+      "day": 56,
+      "done": false,
+      "module": null,
+      "review": true,
+      "task": "🔁 Week 8 review · SQL: redo Q07–Q13 without looking · LeetCode SQL 50 (3 more) · re-run this week's checkers · update PROGRESS.md"
+    },
+    {
+      "day": 57,
+      "done": false,
+      "module": "M12",
+      "review": false,
+      "task": "db push, CRUD, include · Registration + TeamMember · queries 1–4"
+    },
+    {
+      "day": 58,
+      "done": false,
+      "module": "M12",
+      "review": false,
+      "task": "update, delete, groupBy, ⭐ $transaction · queries 5–9 · checker"
+    },
+    {
+      "day": 59,
+      "done": false,
+      "module": "M12",
+      "review": false,
+      "task": "Neon free project · Prisma Studio · read the portal's schema (§10) · quiz"
+    },
+    {
+      "day": 60,
+      "done": false,
+      "module": "M13",
+      "review": false,
+      "task": "Create my-rebuild · file routing · Link · home, /login, /student, /teacher"
+    },
+    {
+      "day": 61,
+      "done": false,
+      "module": "M13",
+      "review": false,
+      "task": "Layouts & metadata · student layout with nav"
+    },
+    {
+      "day": 62,
+      "done": false,
+      "module": "M13",
+      "review": false,
+      "task": "Dynamic routes, notFound, loading, error · /student/events/[id]"
+    },
+    {
+      "day": 63,
+      "done": false,
+      "module": null,
+      "review": true,
+      "task": "🔁 Week 9 review · Prisma + Next.js: explain lib/db.ts and Server vs Client out loud · re-run this week's checkers · update PROGRESS.md"
+    },
+    {
+      "day": 64,
+      "done": false,
+      "module": "M13",
+      "review": false,
+      "task": "⭐ Server vs Client components · a client component with useState"
+    },
+    {
+      "day": 65,
+      "done": false,
+      "module": "M13",
+      "review": false,
+      "task": "Neon + Prisma in my-rebuild · lib/db.ts · events from the database"
+    },
+    {
+      "day": 66,
+      "done": false,
+      "module": "M13",
+      "review": false,
+      "task": "Route handlers (/api/health) · map the portal's src/app (§11)"
+    },
+    {
+      "day": 67,
+      "done": false,
+      "module": "M13",
+      "review": false,
+      "task": "nextjs.org/learn ch. 1–9 · Tailwind styling · checker (--build) + quiz"
+    },
+    {
+      "day": 68,
+      "done": false,
+      "module": "M14",
+      "review": false,
+      "task": "Server Actions, FormData · Part A 1–3"
+    },
+    {
+      "day": 69,
+      "done": false,
+      "module": "M14",
+      "review": false,
+      "task": "⭐ zod · Part A 4–6"
+    },
+    {
+      "day": 70,
+      "done": false,
+      "module": null,
+      "review": true,
+      "task": "🔁 Week 10 review · Server Actions: add a second action (delete event) to my-rebuild · re-run this week's checkers · update PROGRESS.md"
+    },
+    {
+      "day": 71,
+      "done": false,
+      "module": "M14",
+      "review": false,
+      "task": "useFormState, useFormStatus, revalidatePath, redirect · Part A 7 · Part B action file"
+    },
+    {
+      "day": 72,
+      "done": false,
+      "module": "M14",
+      "review": false,
+      "task": "Security checklist · read actions/events.ts · Part B form + page · checker + quiz"
+    },
+    {
+      "day": 73,
+      "done": false,
+      "module": "M15",
+      "review": false,
+      "task": "Hashing, bcrypt, salts · Part A 1–2 · games/login-lab.html tab 1"
+    },
+    {
+      "day": 74,
+      "done": false,
+      "module": "M15",
+      "review": false,
+      "task": "JWT, cookies, sessions · Part A 3–5 · decode your own token on jwt.io"
+    },
+    {
+      "day": 75,
+      "done": false,
+      "module": "M15",
+      "review": false,
+      "task": "Middleware, requireUser, OTP · Part A 6–7 · lab tab 2 · Part B session + login"
+    },
+    {
+      "day": 76,
+      "done": false,
+      "module": "M15",
+      "review": false,
+      "task": "Attacks: SQLi, XSS, CSRF, brute force · Part A 8–11 · Part B middleware + logout · checker + quiz"
+    },
+    {
+      "day": 77,
+      "done": false,
+      "module": null,
+      "review": true,
+      "task": "🔁 🎤 Mock interview #1· re-run this week's checkers · update PROGRESS.md"
+    },
+    {
+      "day": 78,
+      "done": false,
+      "module": "M16",
+      "review": false,
+      "task": "The bug · games/race-condition.html tabs 1–2 · node fire.js · exercises 1–2"
+    },
+    {
+      "day": 79,
+      "done": false,
+      "module": "M16",
+      "review": false,
+      "task": "Unique + retry, isolation, other fixes · exercises 3–4 · Part A checker"
+    },
+    {
+      "day": 80,
+      "done": false,
+      "module": "M16",
+      "review": false,
+      "task": "Part B in my-rebuild · practise the interview answer out loud 3× · quiz"
+    },
+    {
+      "day": 81,
+      "done": false,
+      "module": "M17",
+      "review": false,
+      "task": "Uploads, validation, storage, CSV · exercises 1–4"
+    },
+    {
+      "day": 82,
+      "done": false,
+      "module": "M17",
+      "review": false,
+      "task": "Excel (SheetJS + ExcelJS), Word (docx), download headers · exercises 5–7 · checker + quiz"
+    },
+    {
+      "day": 83,
+      "done": false,
+      "module": "M18",
+      "review": false,
+      "task": "REST APIs, keys, webhooks · exercises 1–3"
+    },
+    {
+      "day": 84,
+      "done": false,
+      "module": null,
+      "review": true,
+      "task": "🔁 Week 12 review · ⭐ explain the race condition on paper in under 2 minutes · M16 quiz again · re-run this week's checkers · update PROGRESS.md"
+    },
+    {
+      "day": 85,
+      "done": false,
+      "module": "M18",
+      "review": false,
+      "task": "Email, WhatsApp, Google Sheets, retries · exercises 4–7"
+    },
+    {
+      "day": 86,
+      "done": false,
+      "module": "M18",
+      "review": false,
+      "task": "Cron & background jobs · exercise 8 (real server) · trace one WhatsApp message · checker + quiz"
+    },
+    {
+      "day": 87,
+      "done": false,
+      "module": "M19",
+      "review": false,
+      "task": "Chat APIs, keys, fallbacks, structured output, context limits · all 8 exercises · checker + quiz"
+    },
+    {
+      "day": 88,
+      "done": false,
+      "module": "M20",
+      "review": false,
+      "task": "Build-ready → push → Vercel + Neon env vars → deploy → logs & rollback · node check.js <url>"
+    },
+    {
+      "day": 89,
+      "done": false,
+      "module": "M21",
+      "review": false,
+      "task": "M1a · final schema + seed script on Neon"
+    },
+    {
+      "day": 90,
+      "done": false,
+      "module": "M21",
+      "review": false,
+      "task": "M1b · login with roles, middleware, logout"
+    },
+    {
+      "day": 91,
+      "done": false,
+      "module": null,
+      "review": true,
+      "task": "🔁 Capstone checkpoint · demo M1–M2 to Claude · fix whatever's red in node check.js · re-run this week's checkers · update PROGRESS.md"
+    },
+    {
+      "day": 92,
+      "done": false,
+      "module": "M21",
+      "review": false,
+      "task": "M2 · student profile (zod + upsert) · first deploy"
+    },
+    {
+      "day": 93,
+      "done": false,
+      "module": "M21",
+      "review": false,
+      "task": "M3 · teacher posts / edits / closes events"
+    },
+    {
+      "day": 94,
+      "done": false,
+      "module": "M21",
+      "review": false,
+      "task": "M4 · team picker + race-safe registration + race-test script"
+    },
+    {
+      "day": 95,
+      "done": false,
+      "module": "M21",
+      "review": false,
+      "task": "M5 · teacher dashboard (count/groupBy) + leader stage updates"
+    },
+    {
+      "day": 96,
+      "done": false,
+      "module": "M21",
+      "review": false,
+      "task": "M6a · loading/error/not-found, mobile polish, CSV/Excel export"
+    },
+    {
+      "day": 97,
+      "done": false,
+      "module": "M21",
+      "review": false,
+      "task": "M6b · ship: production env, phone test, README · node check.js <url>"
+    },
+    {
+      "day": 98,
+      "done": false,
+      "module": null,
+      "review": true,
+      "task": "🔁 🎤 Mock interview #2 · full project walkthrough · prepare for the final exam · re-run this week's checkers · update PROGRESS.md"
+    },
+    {
+      "day": 99,
+      "done": false,
+      "module": "M21",
+      "review": false,
+      "task": "🎓 Final exam: say \"M21 exam\" · build the feature alone in 4 hours"
+    },
+    {
+      "day": 100,
+      "done": false,
+      "module": "M21",
+      "review": false,
+      "task": "🎤 Mock interview: say \"M21 interview\" · question bank · write 5 improvements · 🎉"
+    }
+  ],
+  "modules": [
+    {
+      "id": "M00",
+      "name": "Setup",
+      "phase": 1,
+      "phaseName": "Foundations",
+      "days": [
+        1
+      ],
+      "daysDone": 1,
+      "checker": {
+        "pass": 6,
+        "total": 6,
+        "at": "2026-11-06T13:42:56.295Z",
+        "failing": []
+      },
+      "quiz": true,
+      "status": "done"
+    },
+    {
+      "id": "M01",
+      "name": "How the web works",
+      "phase": 1,
+      "phaseName": "Foundations",
+      "days": [
+        2
+      ],
+      "daysDone": 0,
+      "checker": {
+        "pass": 7,
+        "total": 10,
+        "at": "2026-11-06T13:42:56.578Z",
+        "failing": [
+          {
+            "name": "cookie name is pp_session",
+            "hint": "Lesson section 6."
+          },
+          {
+            "name": "path is /student/events/42",
+            "hint": "Everything after the domain and before any '?'. Starts with /."
+          },
+          {
+            "name": "login steps in order",
+            "hint": "Send → check password → set cookie → redirect → middleware. See lesson section 7.\n   error: C is not defined"
+          }
+        ]
+      },
+      "quiz": false,
+      "status": "progress"
+    },
+    {
+      "id": "M02",
+      "name": "HTML",
+      "phase": 1,
+      "phaseName": "Foundations",
+      "days": [
+        3,
+        4,
+        5
+      ],
+      "daysDone": 0,
+      "checker": null,
+      "quiz": false,
+      "status": "todo"
+    },
+    {
+      "id": "M03",
+      "name": "CSS",
+      "phase": 1,
+      "phaseName": "Foundations",
+      "days": [
+        6,
+        8,
+        9,
+        10
+      ],
+      "daysDone": 0,
+      "checker": null,
+      "quiz": false,
+      "status": "todo"
+    },
+    {
+      "id": "M04",
+      "name": "JavaScript fundamentals",
+      "phase": 1,
+      "phaseName": "Foundations",
+      "days": [
+        11,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18
+      ],
+      "daysDone": 0,
+      "checker": null,
+      "quiz": false,
+      "status": "todo"
+    },
+    {
+      "id": "M05",
+      "name": "JavaScript advanced",
+      "phase": 1,
+      "phaseName": "Foundations",
+      "days": [
+        19,
+        20,
+        22,
+        23,
+        24,
+        25
+      ],
+      "daysDone": 0,
+      "checker": null,
+      "quiz": false,
+      "status": "todo"
+    },
+    {
+      "id": "M06",
+      "name": "Git & GitHub",
+      "phase": 1,
+      "phaseName": "Foundations",
+      "days": [
+        26
+      ],
+      "daysDone": 0,
+      "checker": null,
+      "quiz": false,
+      "status": "todo"
+    },
+    {
+      "id": "M07",
+      "name": "Node, npm & .env",
+      "phase": 2,
+      "phaseName": "Modern tools",
+      "days": [
+        27,
+        29
+      ],
+      "daysDone": 0,
+      "checker": null,
+      "quiz": false,
+      "status": "todo"
+    },
+    {
+      "id": "M08",
+      "name": "TypeScript",
+      "phase": 2,
+      "phaseName": "Modern tools",
+      "days": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "daysDone": 0,
+      "checker": null,
+      "quiz": false,
+      "status": "todo"
+    },
+    {
+      "id": "M09",
+      "name": "React",
+      "phase": 2,
+      "phaseName": "Modern tools",
+      "days": [
+        34,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        43,
+        44
+      ],
+      "daysDone": 0,
+      "checker": null,
+      "quiz": false,
+      "status": "todo"
+    },
+    {
+      "id": "M10",
+      "name": "Tailwind + clsx",
+      "phase": 2,
+      "phaseName": "Modern tools",
+      "days": [
+        45,
+        46,
+        47
+      ],
+      "daysDone": 0,
+      "checker": null,
+      "quiz": false,
+      "status": "todo"
+    },
+    {
+      "id": "M11",
+      "name": "SQL",
+      "phase": 3,
+      "phaseName": "Database",
+      "days": [
+        48,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "daysDone": 0,
+      "checker": null,
+      "quiz": false,
+      "status": "todo"
+    },
+    {
+      "id": "M12",
+      "name": "Prisma",
+      "phase": 3,
+      "phaseName": "Database",
+      "days": [
+        55,
+        57,
+        58,
+        59
+      ],
+      "daysDone": 0,
+      "checker": null,
+      "quiz": false,
+      "status": "todo"
+    },
+    {
+      "id": "M13",
+      "name": "Next.js App Router",
+      "phase": 4,
+      "phaseName": "Next.js & the real app",
+      "days": [
+        60,
+        61,
+        62,
+        64,
+        65,
+        66,
+        67
+      ],
+      "daysDone": 0,
+      "checker": null,
+      "quiz": false,
+      "status": "todo"
+    },
+    {
+      "id": "M14",
+      "name": "Server Actions + zod",
+      "phase": 4,
+      "phaseName": "Next.js & the real app",
+      "days": [
+        68,
+        69,
+        71,
+        72
+      ],
+      "daysDone": 0,
+      "checker": null,
+      "quiz": false,
+      "status": "todo"
+    },
+    {
+      "id": "M15",
+      "name": "Login & security",
+      "phase": 4,
+      "phaseName": "Next.js & the real app",
+      "days": [
+        73,
+        74,
+        75,
+        76
+      ],
+      "daysDone": 0,
+      "checker": null,
+      "quiz": false,
+      "status": "todo"
+    },
+    {
+      "id": "M16",
+      "name": "Race-safe registration",
+      "phase": 4,
+      "phaseName": "Next.js & the real app",
+      "days": [
+        78,
+        79,
+        80
+      ],
+      "daysDone": 0,
+      "checker": null,
+      "quiz": false,
+      "status": "todo"
+    },
+    {
+      "id": "M17",
+      "name": "Uploads & exports",
+      "phase": 5,
+      "phaseName": "Extras & shipping",
+      "days": [
+        81,
+        82
+      ],
+      "daysDone": 0,
+      "checker": null,
+      "quiz": false,
+      "status": "todo"
+    },
+    {
+      "id": "M18",
+      "name": "Integrations",
+      "phase": 5,
+      "phaseName": "Extras & shipping",
+      "days": [
+        83,
+        85,
+        86
+      ],
+      "daysDone": 0,
+      "checker": null,
+      "quiz": false,
+      "status": "todo"
+    },
+    {
+      "id": "M19",
+      "name": "AI features",
+      "phase": 5,
+      "phaseName": "Extras & shipping",
+      "days": [
+        87
+      ],
+      "daysDone": 0,
+      "checker": null,
+      "quiz": false,
+      "status": "todo"
+    },
+    {
+      "id": "M20",
+      "name": "Deployment",
+      "phase": 5,
+      "phaseName": "Extras & shipping",
+      "days": [
+        88
+      ],
+      "daysDone": 0,
+      "checker": null,
+      "quiz": false,
+      "status": "todo"
+    },
+    {
+      "id": "M21",
+      "name": "Capstone",
+      "phase": 5,
+      "phaseName": "Extras & shipping",
+      "days": [
+        89,
+        90,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        99,
+        100
+      ],
+      "daysDone": 0,
+      "checker": null,
+      "quiz": false,
+      "status": "todo"
+    }
+  ]
+}

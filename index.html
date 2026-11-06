@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>100-Day Tracker</title>
+<meta name="description" content="Lakshmanan T's 100-day full-stack challenge: progress updates automatically from every practice checker run.">
+<style>
+:root{--bg:#f6f7fb;--panel:#fff;--line:#e3e7f0;--text:#0f172a;--muted:#5b6478;--brand:#1e335f;--accent:#d4af37;--ok:#16a34a;--okbg:#dcfce7;--warn:#b45309;--warnbg:#fef3c7;--bad:#dc2626;--badbg:#fee2e2;--todo:#e8ebf2;--next:#2563eb}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1020;--panel:#141b33;--line:#26304f;--text:#e8edf8;--muted:#93a1c2;--brand:#9db4ff;--accent:#e2c56a;--ok:#3fd68c;--okbg:rgba(63,214,140,.14);--warn:#ffb23e;--warnbg:rgba(255,178,62,.14);--bad:#ff6b8b;--badbg:rgba(255,107,139,.14);--todo:#1d2643;--next:#5fb4ff}}
+:root[data-theme="dark"]{--bg:#0b1020;--panel:#141b33;--line:#26304f;--text:#e8edf8;--muted:#93a1c2;--brand:#9db4ff;--accent:#e2c56a;--ok:#3fd68c;--okbg:rgba(63,214,140,.14);--warn:#ffb23e;--warnbg:rgba(255,178,62,.14);--bad:#ff6b8b;--badbg:rgba(255,107,139,.14);--todo:#1d2643;--next:#5fb4ff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,Segoe UI,Roboto,sans-serif;line-height:1.5}
+.wrap{max-width:1040px;margin:0 auto;padding:24px 16px 64px}
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+h1{margin:0;font-size:26px;letter-spacing:-.02em}
+h2{font-size:17px;margin:28px 0 10px}
+.muted{color:var(--muted);font-size:14px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.stat b{display:block;font-size:26px;letter-spacing:-.02em}
+.bar{height:8px;border-radius:99px;background:var(--todo);overflow:hidden;margin-top:8px}
+.bar i{display:block;height:100%;background:var(--ok);border-radius:99px}
+.today{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:14px;padding:14px 16px;margin-top:12px}
+.controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:6px}
+.chip{border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:99px;padding:6px 12px;font-size:13px;cursor:pointer}
+.chip.on{background:var(--brand);border-color:var(--brand);color:var(--bg)}
+.grid{display:grid;grid-template-columns:repeat(20,1fr);gap:5px}
+.day{aspect-ratio:1;border-radius:6px;background:var(--todo);border:0;cursor:pointer;font-size:10px;color:var(--muted);padding:0}
+.day.done{background:var(--ok);color:#fff}
+.day.review{outline:2px dashed var(--line);outline-offset:-2px}
+.day.next{outline:2px solid var(--next);outline-offset:-2px;color:var(--next);font-weight:700}
+.day.sel{transform:scale(1.15)}
+.detail{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-top:10px}
+.phase{margin-top:22px}
+.phase h3{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 8px}
+.mods{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.mod{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 14px;cursor:pointer;text-align:left;color:var(--text);font:inherit;width:100%}
+.mod:hover{border-color:var(--brand)}
+.mod .top{display:flex;justify-content:space-between;gap:8px;align-items:center}
+.mod b{font-size:15px}
+.tag{font-size:11px;font-weight:700;border-radius:99px;padding:2px 8px;white-space:nowrap}
+.t-done{background:var(--okbg);color:var(--ok)}.t-quiz{background:var(--warnbg);color:var(--warn)}.t-progress{background:var(--warnbg);color:var(--warn)}.t-todo{background:var(--todo);color:var(--muted)}
+.mod small{display:block;color:var(--muted);font-size:12px;margin-top:6px}
+.panel{grid-column:1/-1;background:var(--panel);border:1px solid var(--brand);border-radius:14px;padding:14px 16px}
+.panel h4{margin:12px 0 6px;font-size:14px}
+.panel h4:first-child{margin-top:0}
+.item{border:1px solid var(--line);border-radius:10px;padding:8px 10px;margin-top:6px;font-size:14px}
+.item.fail{border-color:var(--bad);background:var(--badbg)}
+.item.ok{border-color:var(--ok);background:var(--okbg)}
+.item code,.item .hint{font-family:Consolas,ui-monospace,monospace;font-size:12.5px;white-space:pre-wrap;word-break:break-word;color:var(--muted)}
+.empty{color:var(--muted);font-size:14px}
+footer{margin-top:40px;color:var(--muted);font-size:13px}
+.hidden{display:none}
+@media (max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.mods{grid-template-columns:1fr 1fr}.grid{grid-template-columns:repeat(10,1fr)}}
+@media (max-width:460px){.mods{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>🔥 100-Day Full-Stack Challenge</h1>
+      <div class="muted">Lakshmanan T · HTML → CSS → JavaScript → TypeScript → React → SQL → Prisma → Next.js → a production app rebuilt from scratch</div>
+    </div>
+    <div class="muted" id="updated">Loading…</div>
+  </header>
+
+  <div class="stats" id="stats"></div>
+  <div class="today" id="today"></div>
+
+  <h2>100 days</h2>
+  <div class="controls muted">Click a day to see its task. <span>🟩 done · 🔲 to do · dashed = review day</span></div>
+  <div class="grid" id="grid" style="margin-top:10px"></div>
+  <div class="detail hidden" id="dayDetail"></div>
+
+  <h2>Modules</h2>
+  <div class="controls">
+    <button class="chip on" data-f="all">All</button>
+    <button class="chip" data-f="open">Not finished</button>
+    <button class="chip" data-f="done">Finished</button>
+    <span class="muted">Click a module to see what's left.</span>
+  </div>
+  <div id="phases"></div>
+
+  <footer>Updates automatically every time a practice checker runs. Data: <a href="progress.json">progress.json</a>.</footer>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const STATUS = { done: ["Finished", "t-done"], quiz: ["Quiz pending", "t-quiz"], progress: ["In progress", "t-progress"], todo: ["Not started", "t-todo"] };
+let data, filter = "all", openMod = null, selDay = null;
+
+function ago(iso) {
+  const s = (Date.now() - new Date(iso)) / 1000;
+  if (s < 60) return "just now";
+  if (s < 3600) return Math.floor(s / 60) + " min ago";
+  if (s < 86400) return Math.floor(s / 3600) + " h ago";
+  return new Date(iso).toLocaleDateString();
+}
+
+function render() {
+  const d = data;
+  const checks = d.modules.reduce((a, m) => a + (m.checker ? m.checker.pass : 0), 0);
+  const checksRun = d.modules.reduce((a, m) => a + (m.checker ? m.checker.total : 0), 0);
+  $("updated").textContent = "Updated " + ago(d.updated);
+  $("stats").innerHTML = `
+    <div class="stat"><span class="muted">Days done</span><b>${d.daysDone}<span class="muted"> / 100</span></b><div class="bar"><i style="width:${d.daysDone}%"></i></div></div>
+    <div class="stat"><span class="muted">Modules finished</span><b>${d.modulesDone}<span class="muted"> / 22</span></b><div class="bar"><i style="width:${(d.modulesDone / 22) * 100}%"></i></div></div>
+    <div class="stat"><span class="muted">Checks passing</span><b>${checks}<span class="muted"> / ${checksRun}</span></b><div class="bar"><i style="width:${checksRun ? (checks / checksRun) * 100 : 0}%"></i></div></div>
+    <div class="stat"><span class="muted">Modules pending</span><b>${22 - d.modulesDone}</b><span class="muted">${d.modules.filter((m) => m.status === "quiz").length} waiting for quiz</span></div>`;
+  const nd = d.days.find((x) => x.day === d.nextDay);
+  $("today").innerHTML = nd ? `<span class="muted">Next up · Day ${nd.day}${nd.module ? " · " + nd.module : ""}</span><div style="margin-top:4px">${esc(nd.task)}</div>` : "🏆 All 100 days done!";
+
+  $("grid").innerHTML = d.days.map((x) => `<button class="day ${x.done ? "done" : ""} ${x.review ? "review" : ""} ${x.day === d.nextDay ? "next" : ""} ${x.day === selDay ? "sel" : ""}" data-day="${x.day}" title="Day ${x.day}">${x.day}</button>`).join("");
+  $("grid").querySelectorAll(".day").forEach((b) => b.onclick = () => { selDay = Number(b.dataset.day) === selDay ? null : Number(b.dataset.day); render(); });
+  const sd = d.days.find((x) => x.day === selDay);
+  $("dayDetail").classList.toggle("hidden", !sd);
+  if (sd) $("dayDetail").innerHTML = `<b>Day ${sd.day}</b> ${sd.module ? "· " + sd.module + " " + esc((d.modules.find((m) => m.id === sd.module) || {}).name || "") : "· Review day"} · ${sd.done ? `<span class="tag t-done">Done${d.firstDone[sd.day] ? " " + d.firstDone[sd.day] : ""}</span>` : `<span class="tag t-todo">Not done</span>`}<div style="margin-top:6px">${esc(sd.task)}</div>`;
+
+  const shown = d.modules.filter((m) => filter === "all" || (filter === "done" ? m.status === "done" : m.status !== "done"));
+  let html = "";
+  for (const p of [1, 2, 3, 4, 5]) {
+    const ms = shown.filter((m) => m.phase === p);
+    if (!ms.length) continue;
+    html += `<div class="phase"><h3>Phase ${p} · ${esc(ms[0].phaseName)}</h3><div class="mods">`;
+    for (const m of ms) {
+      const [label, cls] = STATUS[m.status];
+      const ck = m.checker ? `${m.checker.pass}/${m.checker.total} checks` : "checker not run";
+      const pct = m.checker ? (m.checker.pass / m.checker.total) * 100 : 0;
+      html += `<button class="mod" data-id="${m.id}"><div class="top"><b>${m.id} · ${esc(m.name)}</b><span class="tag ${cls}">${label}</span></div>
+        <div class="bar"><i style="width:${pct}%"></i></div><small>${ck} · ${m.daysDone}/${m.days.length} days · quiz ${m.quiz ? "✅" : "⏳"}</small></button>`;
+      if (openMod === m.id) html += panel(m);
+    }
+    html += `</div></div>`;
+  }
+  $("phases").innerHTML = html || `<p class="empty">Nothing here yet.</p>`;
+  $("phases").querySelectorAll(".mod").forEach((b) => b.onclick = () => { openMod = openMod === b.dataset.id ? null : b.dataset.id; render(); });
+}
+
+function panel(m) {
+  const left = data.days.filter((x) => x.module === m.id && !x.done);
+  let h = `<div class="panel">`;
+  h += `<h4>Practice checker</h4>`;
+  if (!m.checker) h += `<p class="empty">Not run yet. Run <code>node check.js</code> in this module's practice folder.</p>`;
+  else if (!m.checker.failing.length) h += `<div class="item ok">✅ All ${m.checker.total} checks pass · last run ${ago(m.checker.at)}</div>`;
+  else h += `<p class="muted">${m.checker.failing.length} check(s) to fix · last run ${ago(m.checker.at)}</p>` + m.checker.failing.map((f) => `<div class="item fail">❌ ${esc(f.name)}<div class="hint">${esc(f.hint)}</div></div>`).join("");
+  h += `<h4>Days left</h4>` + (left.length ? left.map((x) => `<div class="item">Day ${x.day} · ${esc(x.task)}</div>`).join("") : `<p class="empty">All days ticked ✅</p>`);
+  h += `<h4>Quiz</h4>` + (m.quiz ? `<div class="item ok">✅ Passed</div>` : `<div class="item">⏳ Not passed yet. Take it after the checker shows all ✅.</div>`);
+  return h + `</div>`;
+}
+
+document.querySelectorAll("[data-f]").forEach((b) => b.onclick = () => {
+  filter = b.dataset.f;
+  document.querySelectorAll("[data-f]").forEach((x) => x.classList.toggle("on", x === b));
+  render();
+});
+
+async function load() {
+  try {
+    data = await (await fetch("progress.json?t=" + Date.now())).json();
+    render();
+  } catch (e) {
+    $("updated").textContent = "Couldn't load progress.json";
+  }
+}
+load();
+setInterval(load, 60000); // refresh every minute while open
+</script>
+</body>
+</html>
