@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T13:47:12.110Z",
+  "updated": "2026-11-07T03:28:15.654Z",
   "daysDone": 1,
   "modulesDone": 1,
   "nextDay": 2,
@@ -19,14 +19,14 @@
       "done": false,
       "module": "M01",
       "review": false,
-      "task": "Watch how website works Tamil · lesson · DevTools Network tab on your live portal · games/request-journey.html · checker"
+      "task": "Read the full lesson (do every 🧪 Try it) · DevTools Network tab on your live portal · games/request-journey.html · checker"
     },
     {
       "day": 3,
       "done": false,
       "module": "M02",
       "review": false,
-      "task": "Watch EMC HTML (tags → lists) · lesson §1–6 · freeCodeCamp Cat Photo App"
+      "task": "Set up the playground · lesson §1–6 (type every example) · freeCodeCamp Cat Photo App"
     },
     {
       "day": 4,
@@ -47,7 +47,7 @@
       "done": false,
       "module": "M03",
       "review": false,
-      "task": "Watch EMC CSS · lesson §1–5 (selectors, box model) · CSS Diner (all 32)"
+      "task": "Lesson §1–5 (selectors, cascade, box model; type every example) · CSS Diner (all 32)"
     },
     {
       "day": 7,
@@ -215,7 +215,7 @@
       "done": false,
       "module": "M08",
       "review": false,
-      "task": "Dave Gray ch. 1–3 · lesson §1–4 · exercises 1–4"
+      "task": "Lesson §1–4 (try examples in the TS Playground) · exercises 1–4"
     },
     {
       "day": 31,
@@ -769,9 +769,95 @@
         5
       ],
       "daysDone": 0,
-      "checker": null,
+      "checker": {
+        "pass": 0,
+        "total": 20,
+        "at": "2026-11-07T03:28:15.545Z",
+        "failing": [
+          {
+            "name": "login: starts with <!DOCTYPE html>",
+            "hint": "First line of the page must be <!DOCTYPE html>"
+          },
+          {
+            "name": "login: <html lang=...>",
+            "hint": "Write <html lang=\"en\">"
+          },
+          {
+            "name": "login: charset + viewport meta",
+            "hint": "Add both <meta charset> and <meta name=\"viewport\" ...>"
+          },
+          {
+            "name": "login: has a <title>",
+            "hint": "Put a <title> inside <head>"
+          },
+          {
+            "name": "login: semantic header, main, footer",
+            "hint": "Use <header>, <main> and <footer>"
+          },
+          {
+            "name": "login: exactly one <h1>",
+            "hint": "One page = one <h1>"
+          },
+          {
+            "name": "login: image with alt text",
+            "hint": "Every <img> needs src and a meaningful alt"
+          },
+          {
+            "name": "login: form uses method post",
+            "hint": "Passwords must use <form method=\"post\">"
+          },
+          {
+            "name": "login: rollNumber input + label",
+            "hint": "Input needs name=\"rollNumber\", an id, and <label for=\"that-id\">"
+          },
+          {
+            "name": "login: password input is type=password + label",
+            "hint": "name=\"password\", type=\"password\", id, and a matching label"
+          },
+          {
+            "name": "login: both inputs are required",
+            "hint": "Add the required attribute to both inputs"
+          },
+          {
+            "name": "login: submit button",
+            "hint": "Use <button type=\"submit\">"
+          },
+          {
+            "name": "login: a link (forgot password)",
+            "hint": "Add <a href=\"...\">Forgot password?</a>"
+          },
+          {
+            "name": "register: select name=eventId with 2+ options",
+            "hint": "Use <select name=\"eventId\"> with <option>s"
+          },
+          {
+            "name": "register: teamName input",
+            "hint": "Add <input name=\"teamName\">"
+          },
+          {
+            "name": "register: 3+ memberIds checkboxes with values",
+            "hint": "Each teammate: <input type=\"checkbox\" name=\"memberIds\" value=\"u2\">"
+          },
+          {
+            "name": "register: textarea name=problemStatement",
+            "hint": "Add <textarea name=\"problemStatement\">"
+          },
+          {
+            "name": "register: list with 3+ rules",
+            "hint": "Use <ul> or <ol> with at least 3 <li>"
+          },
+          {
+            "name": "register: table with thead and 3+ th",
+            "hint": "Table needs <thead> with at least 3 <th>"
+          },
+          {
+            "name": "register: every input/select/textarea with an id has a label",
+            "hint": "Give your fields ids, and each one a <label for=\"id\">"
+          }
+        ]
+      },
       "quiz": false,
-      "status": "todo"
+      "status": "progress"
     },
     {
       "id": "M03",
