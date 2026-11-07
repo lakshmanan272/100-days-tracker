@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T03:28:15.654Z",
+  "updated": "2026-11-07T03:35:49.504Z",
   "daysDone": 1,
   "modulesDone": 1,
   "nextDay": 2,
@@ -770,26 +770,10 @@
       ],
       "daysDone": 0,
       "checker": {
-        "pass": 0,
+        "pass": 6,
         "total": 20,
-        "at": "2026-11-07T03:28:15.545Z",
+        "at": "2026-11-07T03:35:49.405Z",
         "failing": [
-          {
-            "name": "login: starts with <!DOCTYPE html>",
-            "hint": "First line of the page must be <!DOCTYPE html>"
-          },
-          {
-            "name": "login: <html lang=...>",
-            "hint": "Write <html lang=\"en\">"
-          },
-          {
-            "name": "login: charset + viewport meta",
-            "hint": "Add both <meta charset> and <meta name=\"viewport\" ...>"
-          },
-          {
-            "name": "login: has a <title>",
-            "hint": "Put a <title> inside <head>"
-          },
           {
             "name": "login: semantic header, main, footer",
             "hint": "Use <header>, <main> and <footer>"
@@ -797,14 +781,6 @@
           {
             "name": "login: exactly one <h1>",
             "hint": "One page = one <h1>"
-          },
-          {
-            "name": "login: image with alt text",
-            "hint": "Every <img> needs src and a meaningful alt"
-          },
-          {
-            "name": "login: form uses method post",
-            "hint": "Passwords must use <form method=\"post\">"
           },
           {
             "name": "login: rollNumber input + label",
