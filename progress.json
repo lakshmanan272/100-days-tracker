@@ -1,10 +1,11 @@
 {
-  "updated": "2026-11-08T11:55:35.956Z",
-  "daysDone": 1,
-  "modulesDone": 1,
-  "nextDay": 2,
+  "updated": "2026-11-08T12:25:18.202Z",
+  "daysDone": 2,
+  "modulesDone": 2,
+  "nextDay": 3,
   "firstDone": {
-    "1": "2026-11-05"
+    "1": "2026-11-05",
+    "2": "2026-11-08"
   },
   "days": [
     {
@@ -16,7 +17,7 @@
     },
     {
       "day": 2,
-      "done": false,
+      "done": true,
       "module": "M01",
       "review": false,
       "task": "Read the full lesson (do every 🧪 Try it) · DevTools Network tab on your live portal · games/request-journey.html · checker"
@@ -735,15 +736,15 @@
       "days": [
         2
       ],
-      "daysDone": 0,
+      "daysDone": 1,
       "checker": {
         "pass": 10,
         "total": 10,
         "at": "2026-11-08T11:55:35.880Z",
         "failing": []
       },
-      "quiz": false,
-      "status": "quiz"
+      "quiz": true,
+      "status": "done"
     },
     {
       "id": "M02",
