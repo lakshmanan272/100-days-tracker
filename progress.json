@@ -1,11 +1,14 @@
 {
-  "updated": "2026-11-08T12:56:13.781Z",
-  "daysDone": 2,
-  "modulesDone": 2,
-  "nextDay": 3,
+  "updated": "2026-11-08T13:08:53.515Z",
+  "daysDone": 5,
+  "modulesDone": 3,
+  "nextDay": 6,
   "firstDone": {
     "1": "2026-11-05",
-    "2": "2026-11-08"
+    "2": "2026-11-08",
+    "3": "2026-11-08",
+    "4": "2026-11-08",
+    "5": "2026-11-08"
   },
   "days": [
     {
@@ -24,21 +27,21 @@
     },
     {
       "day": 3,
-      "done": false,
+      "done": true,
       "module": "M02",
       "review": false,
       "task": "Set up the playground · lesson §1–6 (type every example) · freeCodeCamp Cat Photo App"
     },
     {
       "day": 4,
-      "done": false,
+      "done": true,
       "module": "M02",
       "review": false,
       "task": "Lesson §7–8 forms & tables · freeCodeCamp Survey Form · build login.html"
     },
     {
       "day": 5,
-      "done": false,
+      "done": true,
       "module": "M02",
       "review": false,
       "task": "Build register-team.html · connect login-form.tsx · checker + quiz"
@@ -756,15 +759,15 @@
         4,
         5
       ],
-      "daysDone": 0,
+      "daysDone": 3,
       "checker": {
         "pass": 20,
         "total": 20,
         "at": "2026-11-08T12:56:13.666Z",
         "failing": []
       },
-      "quiz": false,
-      "status": "quiz"
+      "quiz": true,
+      "status": "done"
     },
     {
       "id": "M03",
