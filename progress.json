@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T11:47:04.430Z",
+  "updated": "2026-11-08T11:48:41.387Z",
   "daysDone": 1,
   "modulesDone": 1,
   "nextDay": 2,
@@ -737,17 +737,13 @@
       ],
       "daysDone": 0,
       "checker": {
-        "pass": 8,
+        "pass": 9,
         "total": 10,
-        "at": "2026-11-08T11:47:04.331Z",
+        "at": "2026-11-08T11:48:41.292Z",
         "failing": [
           {
             "name": "path is /student/events/42",
             "hint": "Everything after the domain and before any '?'. Starts with /."
-          },
-          {
-            "name": "login steps in order",
-            "hint": "Send → check password → set cookie → redirect → middleware. See lesson section 7.\n   error: B is not defined"
           }
         ]
       },
