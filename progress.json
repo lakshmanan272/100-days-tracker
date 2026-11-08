@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T12:48:51.507Z",
+  "updated": "2026-11-08T12:55:32.015Z",
   "daysDone": 2,
   "modulesDone": 2,
   "nextDay": 3,
@@ -758,58 +758,13 @@
       ],
       "daysDone": 0,
       "checker": {
-        "pass": 9,
+        "pass": 20,
         "total": 20,
-        "at": "2026-11-08T12:48:51.430Z",
-        "failing": [
-          {
-            "name": "login: semantic header, main, footer",
-            "hint": "Use <header>, <main> and <footer>"
-          },
-          {
-            "name": "login: rollNumber input + label",
-            "hint": "Input needs name=\"rollNumber\", an id, and <label for=\"that-id\">"
-          },
-          {
-            "name": "login: password input is type=password + label",
-            "hint": "name=\"password\", type=\"password\", id, and a matching label"
-          },
-          {
-            "name": "login: both inputs are required",
-            "hint": "Add the required attribute to both inputs"
-          },
-          {
-            "name": "register: select name=eventId with 2+ options",
-            "hint": "Use <select name=\"eventId\"> with <option>s"
-          },
-          {
-            "name": "register: teamName input",
-            "hint": "Add <input name=\"teamName\">"
-          },
-          {
-            "name": "register: 3+ memberIds checkboxes with values",
-            "hint": "Each teammate: <input type=\"checkbox\" name=\"memberIds\" value=\"u2\">"
-          },
-          {
-            "name": "register: textarea name=problemStatement",
-            "hint": "Add <textarea name=\"problemStatement\">"
-          },
-          {
-            "name": "register: list with 3+ rules",
-            "hint": "Use <ul> or <ol> with at least 3 <li>"
-          },
-          {
-            "name": "register: table with thead and 3+ th",
-            "hint": "Table needs <thead> with at least 3 <th>"
-          },
-          {
-            "name": "register: every input/select/textarea with an id has a label",
-            "hint": "Give your fields ids, and each one a <label for=\"id\">"
-          }
-        ]
+        "at": "2026-11-08T12:55:31.910Z",
+        "failing": []
       },
       "quiz": false,
-      "status": "progress"
+      "status": "quiz"
     },
     {
       "id": "M03",
