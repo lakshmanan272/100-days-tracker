@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T11:54:15.378Z",
+  "updated": "2026-11-08T11:55:35.956Z",
   "daysDone": 1,
   "modulesDone": 1,
   "nextDay": 2,
@@ -737,18 +737,13 @@
       ],
       "daysDone": 0,
       "checker": {
-        "pass": 9,
+        "pass": 10,
         "total": 10,
-        "at": "2026-11-08T11:54:15.308Z",
-        "failing": [
-          {
-            "name": "path is /student/events/42",
-            "hint": "Everything after the domain and before any '?'. Starts with /."
-          }
-        ]
+        "at": "2026-11-08T11:55:35.880Z",
+        "failing": []
       },
       "quiz": false,
-      "status": "progress"
+      "status": "quiz"
     },
     {
       "id": "M02",
